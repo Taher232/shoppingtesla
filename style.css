@@ -1,0 +1,84 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: rgb(250, 230, 53);
+}
+/*nav bar*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+/*items*/
+.sum {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 50px 0;
+}
+.item img {
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+}
+.item .plus,
+.item .moin {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(5, 250, 96);
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    font-size: 30px;
+}
+.item .delete {
+    height: 40px;
+    width: 80px;
+    background-color: rgb(106, 53, 250);
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.red {
+    color: red;
+}
